@@ -35,6 +35,14 @@
         "identifier" : "558208802A6F0C6A0020C3BF",
         "name" : "UtilsTests"
       }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Common\/Common.xcodeproj",
+        "identifier" : "558209402A714CA80020C3BF",
+        "name" : "CommonTests"
+      }
     }
   ],
   "version" : 1

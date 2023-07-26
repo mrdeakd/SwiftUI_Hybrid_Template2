@@ -1,14 +1,8 @@
-//
-//  ContentView.swift
-//  Movies
-//
-//  Created by Foundation on 2022. 02. 14..
-//
-
+import Common
 import SwiftUI
 
 protocol MoviesScreenViewModelProtocol: ObservableObject {
-    var movies: [MovieVM] { get }
+    var movies: [Movie] { get }
 }
 
 struct MoviesScreen<ViewModel: MoviesScreenViewModelProtocol>: View {
@@ -29,7 +23,7 @@ struct MoviesScreen<ViewModel: MoviesScreenViewModelProtocol>: View {
         .navigationViewStyle(.stack)
     }
 
-    func destinationView(using movie: MovieVM) -> some View {
+    func destinationView(using movie: Movie) -> some View {
         MovieDetailsScreen(viewModel: MovieDetailsScreenViewModel(movie: movie))
     }
 }
@@ -37,9 +31,9 @@ struct MoviesScreen<ViewModel: MoviesScreenViewModelProtocol>: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MoviesScreen(viewModel: MockViewModel())
+            MoviesScreen(viewModel: MoviesScreenViewModelMock())
                 .preferredColorScheme(.light)
-            MoviesScreen(viewModel: MockViewModel())
+            MoviesScreen(viewModel: MoviesScreenViewModelMock())
                 .preferredColorScheme(.dark)
         }
     }

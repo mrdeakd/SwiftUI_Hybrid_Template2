@@ -1,15 +1,9 @@
-//
-//  MovieDetailsScreen.swift
-//  Movies
-//
-//  Created by Foundation on 2022. 02. 14..
-//
-
+import Common
 import Foundation
 import SwiftUI
 
 protocol MovieDetailsScreenViewModelProtocol: ObservableObject {
-    var movie: MovieVM { get }
+    var movie: Movie { get }
 
     func markMovie()
 }
@@ -21,7 +15,7 @@ struct MovieDetailsScreen<ViewModel: MovieDetailsScreenViewModelProtocol>: View 
         ScrollView {
             Color.clear
                 .aspectRatio(0.7, contentMode: .fill)
-                .overlay(AsyncImage(url: viewModel.movie.image.large))
+                .overlay(AsyncImageView(url: viewModel.movie.image.large))
                 .clipped()
                 .overlay {
                     LinearGradient(
@@ -63,9 +57,9 @@ struct MovieDetailsScreen<ViewModel: MovieDetailsScreenViewModelProtocol>: View 
 struct MovieDetailsScreem_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            MovieDetailsScreen(viewModel: MockMovieDetailsViewModel())
+            MovieDetailsScreen(viewModel: MovieDetailsScreenViewModelMock())
                 .preferredColorScheme(.light)
-            MovieDetailsScreen(viewModel: MockMovieDetailsViewModel())
+            MovieDetailsScreen(viewModel: MovieDetailsScreenViewModelMock())
                 .preferredColorScheme(.dark)
         }
     }

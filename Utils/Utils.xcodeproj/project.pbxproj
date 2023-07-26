@@ -73,8 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558208852A6F0C6A0020C3BF /* Utils.framework in Frameworks */,
 				47A2C9B3B9935FA8925B8F60 /* Pods_Utils_UtilsTests.framework in Frameworks */,
+				558208852A6F0C6A0020C3BF /* Utils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				00135FEB28F2C6EB00FF24C7 /* AppLogger.swift */,
-				00135FED28F2C87200FF24C7 /* Logging.swift */,
 				558207E32A6D67C60020C3BF /* LoggerProtocol.swift */,
+				00135FED28F2C87200FF24C7 /* Logging.swift */,
 			);
 			path = Logger;
 			sourceTree = "<group>";
@@ -94,12 +94,12 @@
 		0027053F28DB746500FFCBDC = {
 			isa = PBXGroup;
 			children = (
-				558208822A6F0C6A0020C3BF /* UtilsTests */,
-				5582084F2A6ECD810020C3BF /* Products */,
-				558207D42A6D63C90020C3BF /* Utils.framework */,
-				0027054B28DB746500FFCBDC /* Utils */,
-				69C6B7FB70196AA180F92FCE /* Pods */,
 				DF48467E07052C7D57F1F30E /* Frameworks */,
+				69C6B7FB70196AA180F92FCE /* Pods */,
+				5582084F2A6ECD810020C3BF /* Products */,
+				0027054B28DB746500FFCBDC /* Utils */,
+				558208822A6F0C6A0020C3BF /* UtilsTests */,
+				558207D42A6D63C90020C3BF /* Utils.framework */,
 				558208812A6F0C6A0020C3BF /* UtilsTests.xctest */,
 			);
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXGroup;
 			children = (
 				558207DC2A6D65190020C3BF /* Bundle+Extension.swift */,
-				558207DB2A6D65190020C3BF /* String+Extension.swift */,
-				558207EA2A6D69FE0020C3BF /* OSLogType+Extension.swift */,
 				558207EC2A6D6A230020C3BF /* OSLog+Extension.swift */,
+				558207EA2A6D69FE0020C3BF /* OSLogType+Extension.swift */,
+				558207DB2A6D65190020C3BF /* String+Extension.swift */,
 				558208242A6D7AD20020C3BF /* Task+Extension.swift */,
 			);
 			path = Extension;
@@ -165,10 +165,10 @@
 		69C6B7FB70196AA180F92FCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5CD8B61B540348C97B6BEFD1 /* Pods-Utils.debug.xcconfig */,
-				6AB1D561FFA4C6692E18F321 /* Pods-Utils.release.xcconfig */,
 				7B3AAC82B87E27271E37DD73 /* Pods-Utils-UtilsTests.debug.xcconfig */,
 				3BDB0D53C16C727988D934A9 /* Pods-Utils-UtilsTests.release.xcconfig */,
+				5CD8B61B540348C97B6BEFD1 /* Pods-Utils.debug.xcconfig */,
+				6AB1D561FFA4C6692E18F321 /* Pods-Utils.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -378,16 +378,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558207E22A6D662B0020C3BF /* Localizable.swift in Sources */,
-				558207EB2A6D69FE0020C3BF /* OSLogType+Extension.swift in Sources */,
-				558207DE2A6D65190020C3BF /* Bundle+Extension.swift in Sources */,
-				558207ED2A6D6A230020C3BF /* OSLog+Extension.swift in Sources */,
-				558208252A6D7AD20020C3BF /* Task+Extension.swift in Sources */,
 				00135FEC28F2C6EB00FF24C7 /* AppLogger.swift in Sources */,
-				00135FEE28F2C87200FF24C7 /* Logging.swift in Sources */,
-				558207DD2A6D65190020C3BF /* String+Extension.swift in Sources */,
-				558207E42A6D67C60020C3BF /* LoggerProtocol.swift in Sources */,
 				558207E12A6D662B0020C3BF /* Assets.swift in Sources */,
+				558207DE2A6D65190020C3BF /* Bundle+Extension.swift in Sources */,
+				558207E22A6D662B0020C3BF /* Localizable.swift in Sources */,
+				558207E42A6D67C60020C3BF /* LoggerProtocol.swift in Sources */,
+				00135FEE28F2C87200FF24C7 /* Logging.swift in Sources */,
+				558207ED2A6D6A230020C3BF /* OSLog+Extension.swift in Sources */,
+				558207EB2A6D69FE0020C3BF /* OSLogType+Extension.swift in Sources */,
+				558207DD2A6D65190020C3BF /* String+Extension.swift in Sources */,
+				558208252A6D7AD20020C3BF /* Task+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +556,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 33X274JPQ2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -595,7 +595,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 33X274JPQ2;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

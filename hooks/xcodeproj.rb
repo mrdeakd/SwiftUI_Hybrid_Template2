@@ -7,5 +7,8 @@ def sort_project(project_path)
 end
 
 Dir.chdir(__dir__) do
-    sort_project('../InterviewApp/InterviewApp.xcodeproj')
+    sort_project('../Movies/Movies.xcodeproj')
+    sort_project('../Common/Common.xcodeproj')
+    sort_project('../UI/UI.xcodeproj')
+    sort_project('../Utils/Utils.xcodeproj')
 end

@@ -66,6 +66,20 @@ target 'UI' do
   end
 end
 
+target 'Common' do
+  project 'Common/Common.xcodeproj'
+
+  basePods
+  developmentPods
+
+  script_phase(ScriptPhase.swiftgen)
+  script_phase(ScriptPhase.swiftlint)
+
+  target 'CommonTests' do
+    script_phase(ScriptPhase.swiftlint)
+  end
+end
+
 post_install do |installer|
   installer.pods_project.targets.each do |target|
     # https://github.com/CocoaPods/CocoaPods/issues/8891#issuecomment-1201465446

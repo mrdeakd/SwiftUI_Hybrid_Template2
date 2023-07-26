@@ -11,7 +11,7 @@ platform :ios do
       clean: true,
       workspace: "#{workspace}",
       scheme: "#{scheme}",
-      devices: ["iPhone 13 Pro"],
+      devices: ["iPhone 14 Pro"],
       output_style: "basic",
       include_simulator_logs: false
     )

@@ -1,20 +1,13 @@
-//
-//  MovieListItem.swift
-//  Movies
-//
-//  Created by Foundation on 2022. 02. 14..
-//
-
+import Common
 import SwiftUI
 
 struct MovieListItem: View {
-
-    let movie: MovieVM
+    let movie: Movie
 
     var body: some View {
         HStack(spacing: 16) {
             ZStack {
-                AsyncImage(url: movie.image.small)
+                AsyncImageView(url: movie.image.small)
                     .frame(width: 80, height: 80 * 1.7778)
                     .clipped()
             }
@@ -49,6 +42,6 @@ struct MovieListItem: View {
 
 struct MovieListItem_Previews: PreviewProvider {
     static var previews: some View {
-        MovieListItem(movie: previewMovies[1])
+        MovieListItem(movie: .movieListMock[1])
     }
 }

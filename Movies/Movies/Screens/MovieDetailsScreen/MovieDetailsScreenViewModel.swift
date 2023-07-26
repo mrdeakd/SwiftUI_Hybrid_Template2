@@ -1,16 +1,10 @@
-//
-//  MovieDetailsScreenViewModel.swift
-//  Movies
-//
-//  Created by Foundation on 2022. 02. 14..
-//
-
+import Common
 import Foundation
 
 class MovieDetailsScreenViewModel: ObservableObject, MovieDetailsScreenViewModelProtocol {
-    @Published var movie: MovieVM
+    @Published var movie: Movie
 
-    init(movie: MovieVM) {
+    init(movie: Movie) {
         self.movie = movie
     }
 
