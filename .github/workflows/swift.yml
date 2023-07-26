@@ -29,7 +29,7 @@ jobs:
       run: bundle exec pod install
         
     - name: Build
-      run: xcodebuild clean build -workspace InterviewApp.xcworkspace -scheme InterviewApp CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+      run: xcodebuild clean build -workspace Movies.xcworkspace -scheme Movies CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 
     - name: Run tests
       run: bundle exec fastlane test
