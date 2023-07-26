@@ -93,6 +93,7 @@
 		558208E42A713A730020C3BF /* Utils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		558208EB2A713CF30020C3BF /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		558208EC2A713CF30020C3BF /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		558208F02A7144FD0020C3BF /* MoviesTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviesTests.xctestplan; sourceTree = "<group>"; };
 		5E4F24118C69BB9D49034DC8 /* Pods-Movies-MoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Movies-MoviesTests.release.xcconfig"; path = "Target Support Files/Pods-Movies-MoviesTests/Pods-Movies-MoviesTests.release.xcconfig"; sourceTree = "<group>"; };
 		9F477C0827BA5CF800DAE295 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F477C0D27BA5CF800DAE295 /* MoviesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreen.swift; sourceTree = "<group>"; };
@@ -159,6 +160,7 @@
 		558208912A7134790020C3BF /* MoviesTests */ = {
 			isa = PBXGroup;
 			children = (
+				558208F02A7144FD0020C3BF /* MoviesTests.xctestplan */,
 				558208922A7134790020C3BF /* MoviesTests.swift */,
 			);
 			path = MoviesTests;
