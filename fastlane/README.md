@@ -21,7 +21,7 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 [bundle exec] fastlane ios test
 ```
 
-Run InterviewApp Tests
+Run Movies Tests
 
 ### ios build_app_simulator
 
