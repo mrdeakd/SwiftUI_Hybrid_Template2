@@ -12,9 +12,9 @@
 		558209442A714CA80020C3BF /* CommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558209432A714CA80020C3BF /* CommonTests.swift */; };
 		558209452A714CA80020C3BF /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5582092C2A714AA20020C3BF /* Common.framework */; platformFilter = ios; };
 		558209522A714D590020C3BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 558209542A714D590020C3BF /* Localizable.strings */; };
-		558209562A714D670020C3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558209552A714D670020C3BF /* Assets.xcassets */; };
 		5582095A2A714D9A0020C3BF /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558209582A714D9A0020C3BF /* Localizable.swift */; };
 		5582095B2A714D9A0020C3BF /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558209592A714D9A0020C3BF /* Assets.swift */; };
+		5582098A2A7155720020C3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558209892A7155720020C3BF /* Assets.xcassets */; };
 		5F0CF9DBF366F39767CA6D9B /* Pods_Common_CommonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C95B652EA77B937C993CA /* Pods_Common_CommonTests.framework */; };
 		F68B0145F6C786684D718D69 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0BF16F23AC3B385AADADD2 /* Pods_Common.framework */; };
 /* End PBXBuildFile section */
@@ -40,9 +40,9 @@
 		558209412A714CA80020C3BF /* CommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558209432A714CA80020C3BF /* CommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTests.swift; sourceTree = "<group>"; };
 		558209532A714D590020C3BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		558209552A714D670020C3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558209582A714D9A0020C3BF /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		558209592A714D9A0020C3BF /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		558209892A7155720020C3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798E6CF92BEA669ABCEA1283 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 		BB0BF16F23AC3B385AADADD2 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,7 +146,7 @@
 		5582094F2A714D4E0020C3BF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				558209552A714D670020C3BF /* Assets.xcassets */,
+				558209892A7155720020C3BF /* Assets.xcassets */,
 				558209542A714D590020C3BF /* Localizable.strings */,
 			);
 			path = Resources;
@@ -267,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558209562A714D670020C3BF /* Assets.xcassets in Resources */,
+				5582098A2A7155720020C3BF /* Assets.xcassets in Resources */,
 				558209522A714D590020C3BF /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
